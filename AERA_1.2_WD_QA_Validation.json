@@ -1,0 +1,228 @@
+{
+  "artifact": "AERA 1.2 WD package validation",
+  "build_id": "AERA-001-1.2WD-20260807.1",
+  "assessment_relationship": "I1 author-performed publication-integrity and consistency check; no independence claim",
+  "status": "PASS WITH RELEASE GATES",
+  "release_gates": [
+    "Public license, contribution terms and intellectual-property process are not established.",
+    "Stable package URL, comment channel, comment dates and identity-publication/privacy terms are not established.",
+    "Applicability and satisfaction assessments are unpopulated.",
+    "NIST mappings lack atomic focal identifiers, exact text, rationale and independent SME adjudication; OLIR is not submission-ready.",
+    "No independent multi-organization pilot, inter-rater validation or external assessment has been completed."
+  ],
+  "counts": {
+    "requirements": 199,
+    "threats": 25,
+    "sources": 69,
+    "master_pdf_pages": 62
+  },
+  "checks": [
+    {
+      "check": "Requirement count and uniqueness",
+      "status": "PASS",
+      "detail": "199 rows / 199 unique IDs"
+    },
+    {
+      "check": "Requirement lifecycle",
+      "status": "PASS",
+      "detail": "All 199 rows are PROPOSED in the working draft"
+    },
+    {
+      "check": "Requirement build identity",
+      "status": "PASS",
+      "detail": "All rows bind to AERA-001-1.2WD-20260807.1"
+    },
+    {
+      "check": "Threat sequence",
+      "status": "PASS",
+      "detail": "DAT-01 through DAT-25 present in order"
+    },
+    {
+      "check": "Source count and uniqueness",
+      "status": "PASS",
+      "detail": "69 rows / 69 unique references"
+    },
+    {
+      "check": "Source access dates",
+      "status": "PASS",
+      "detail": "All source rows accessed 2026-08-07"
+    },
+    {
+      "check": "Source URL uniqueness",
+      "status": "PASS",
+      "detail": "69 unique official URLs or DOIs"
+    },
+    {
+      "check": "DOCX owner metadata",
+      "status": "PASS",
+      "detail": "author=Angelis Pseftis; lastModifiedBy=Angelis Pseftis"
+    },
+    {
+      "check": "DOCX working-draft metadata",
+      "status": "PASS",
+      "detail": "status=Working Draft; build ID present"
+    },
+    {
+      "check": "Appendix A canonical count",
+      "status": "PASS",
+      "detail": "199 unique requirement rows"
+    },
+    {
+      "check": "DOCX/CSV semantic equivalence",
+      "status": "PASS",
+      "detail": "Exact ID and normative text match for all 199 requirements"
+    },
+    {
+      "check": "Stale package claims absent",
+      "status": "PASS",
+      "detail": "No stale terms found: []"
+    },
+    {
+      "check": "Claim and normative boundaries present",
+      "status": "PASS",
+      "detail": "missing=[]; required=['public review not yet open', 'not claims of support', 'not submission-ready', 'AERA-NORM-T17', 'AERA-NORM-T20', 'AERA-NORM-T25']"
+    },
+    {
+      "check": "Master PDF render",
+      "status": "PASS",
+      "detail": "62 pages"
+    },
+    {
+      "check": "Master PDF text identity",
+      "status": "PASS",
+      "detail": "Build ID is visible in opening pages"
+    },
+    {
+      "check": "DOCX automated accessibility audit",
+      "status": "PASS",
+      "detail": "high=0, medium=0, low=0"
+    },
+    {
+      "check": "AERA_1.2_WD_Requirement_Register.xlsx sheet set",
+      "status": "PASS",
+      "detail": "3 sheets: ['Requirements', 'Applicability Template', 'Control']"
+    },
+    {
+      "check": "AERA_1.2_WD_Requirement_Register.xlsx formula errors",
+      "status": "PASS",
+      "detail": "No cached formula-error cells"
+    },
+    {
+      "check": "AERA_1.2_WD_Requirement_Register.xlsx package safety",
+      "status": "PASS",
+      "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx sheet set",
+      "status": "PASS",
+      "detail": "2 sheets: ['Threats', 'Control']"
+    },
+    {
+      "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx formula errors",
+      "status": "PASS",
+      "detail": "No cached formula-error cells"
+    },
+    {
+      "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx package safety",
+      "status": "PASS",
+      "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_Source_Register.xlsx sheet set",
+      "status": "PASS",
+      "detail": "2 sheets: ['Sources', 'Control']"
+    },
+    {
+      "check": "AERA_1.2_WD_Source_Register.xlsx formula errors",
+      "status": "PASS",
+      "detail": "No cached formula-error cells"
+    },
+    {
+      "check": "AERA_1.2_WD_Source_Register.xlsx package safety",
+      "status": "PASS",
+      "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx sheet set",
+      "status": "PASS",
+      "detail": "6 sheets: ['Review Log', 'Summary', 'Controlled Vocabulary', 'Requirements Snapshot', 'Threat Snapshot', 'Source Snapshot']"
+    },
+    {
+      "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx formula errors",
+      "status": "PASS",
+      "detail": "No cached formula-error cells"
+    },
+    {
+      "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx package safety",
+      "status": "PASS",
+      "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx sheet set",
+      "status": "PASS",
+      "detail": "7 sheets: ['Read Me', 'Coverage Ledger', 'AI RMF 1.0 Candidates', 'CSF 2.0 Candidates', 'SP800-53 Candidates', 'AI RMF Design Attributes', 'Submission Checklist']"
+    },
+    {
+      "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx formula errors",
+      "status": "PASS",
+      "detail": "No cached formula-error cells"
+    },
+    {
+      "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx package safety",
+      "status": "PASS",
+      "detail": "No VBA project or external workbook links"
+    }
+  ],
+  "workbooks": {
+    "AERA_1.2_WD_Requirement_Register.xlsx": {
+      "sheets": [
+        "Requirements",
+        "Applicability Template",
+        "Control"
+      ],
+      "formula_errors": [],
+      "forbidden_parts": []
+    },
+    "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx": {
+      "sheets": [
+        "Threats",
+        "Control"
+      ],
+      "formula_errors": [],
+      "forbidden_parts": []
+    },
+    "AERA_1.2_WD_Source_Register.xlsx": {
+      "sheets": [
+        "Sources",
+        "Control"
+      ],
+      "formula_errors": [],
+      "forbidden_parts": []
+    },
+    "AERA_1.2_WD_Review_Comment_Matrix.xlsx": {
+      "sheets": [
+        "Review Log",
+        "Summary",
+        "Controlled Vocabulary",
+        "Requirements Snapshot",
+        "Threat Snapshot",
+        "Source Snapshot"
+      ],
+      "formula_errors": [],
+      "forbidden_parts": []
+    },
+    "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx": {
+      "sheets": [
+        "Read Me",
+        "Coverage Ledger",
+        "AI RMF 1.0 Candidates",
+        "CSF 2.0 Candidates",
+        "SP800-53 Candidates",
+        "AI RMF Design Attributes",
+        "Submission Checklist"
+      ],
+      "formula_errors": [],
+      "forbidden_parts": []
+    }
+  }
+}

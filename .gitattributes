@@ -1,0 +1,7 @@
+# Preserve controlled artifact bytes so release checksums survive clone/checkout.
+AERA_1.2_WD_* -text
+
+*.md text eol=lf
+*.cff text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

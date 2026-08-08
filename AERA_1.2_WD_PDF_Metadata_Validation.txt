@@ -1,0 +1,21 @@
+AERA 1.2 WD PDF metadata and accessibility-control validation
+Build ID: AERA-001-1.2WD-20260807.1
+Assessment relationship: I1 author-performed publication-integrity check; no independence claim
+Status: PASS WITH RELEASE GATES
+PDF/UA or PDF/A conformance: NOT CLAIMED; automated and visual checks do not establish formal conformance
+
+PDF records:
+- AERA_1.2_WD_Autonomous_Enterprise_Reference_Architecture.pdf: pages=62; tagged=true; encrypted=false; annotations=82; uri_links=82; author=Angelis Pseftis; title=AERA 1.2 - The Autonomous Enterprise Reference Architecture
+- AERA_1.2_WD_Architecture_Integrity_and_NIST_Readiness_Review.pdf: pages=12; tagged=true; encrypted=false; annotations=9; uri_links=9; author=Angelis Pseftis; title=AERA 1.2 WD - Architecture Integrity and NIST Readiness Review
+- AERA_1.2_WD_Public_Review_Brief.pdf: pages=10; tagged=true; encrypted=false; annotations=0; uri_links=0; author=Angelis Pseftis; title=AERA 1.2 WD - Public Review Brief
+- AERA_1.2_WD_Public_Review_Release_Notes.pdf: pages=5; tagged=true; encrypted=false; annotations=0; uri_links=0; author=Angelis Pseftis; title=AERA 1.2 WD - Public Review Release Notes
+
+DOCX automated accessibility records:
+- AERA_1.2_WD_Autonomous_Enterprise_Reference_Architecture.docx: high=0; medium=0; low=0
+- AERA_1.2_WD_Architecture_Integrity_and_NIST_Readiness_Review.docx: high=0; medium=0; low=0
+- AERA_1.2_WD_Public_Review_Brief.docx: high=0; medium=0; low=0
+- AERA_1.2_WD_Public_Review_Release_Notes.docx: high=0; medium=0; low=0
+
+Visual QA: all 89 pages across the four PDFs were rendered and inspected; no clipping, overlap, blank pages, broken tables, or missing glyphs were observed.
+Release boundary: public review is not open; stable package URL, submission channel, dates, privacy terms, and license remain unset.
+NIST boundary: these checks do not establish NIST support, approval, endorsement, adoption, certification, or OLIR readiness.

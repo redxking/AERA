@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the authoritative AERA 1.2 Working Draft PDF and include the build identifier."
+title: "AERA 1.2: The Autonomous Enterprise Reference Architecture"
+type: report
+authors:
+  - family-names: Pseftis
+    given-names: Angelis
+version: "1.2 WD"
+date-released: 2026-08-07
+repository-code: "https://github.com/redxking/AERA"
+url: "https://github.com/redxking/AERA/blob/main/AERA_1.2_WD_Autonomous_Enterprise_Reference_Architecture.pdf"
+identifiers:
+  - type: other
+    value: "AERA-001-1.2WD-20260807.1"
+    description: "Controlled build identifier"
