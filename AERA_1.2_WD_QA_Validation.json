@@ -4,8 +4,8 @@
   "assessment_relationship": "I1 author-performed publication-integrity and consistency check; no independence claim",
   "status": "PASS WITH RELEASE GATES",
   "release_gates": [
-    "Public license, contribution terms and intellectual-property process are not established.",
-    "Stable package URL, comment channel, comment dates and identity-publication/privacy terms are not established.",
+    "No open license has been granted; formal contribution, derivative-work, patent and intellectual-property processes remain unset.",
+    "The public repository URL is established; a formal review channel, comment dates, identity-publication/privacy terms and moderation process remain unset.",
     "Applicability and satisfaction assessments are unpopulated.",
     "NIST mappings lack atomic focal identifiers, exact text, rationale and independent SME adjudication; OLIR is not submission-ready.",
     "No independent multi-organization pilot, inter-rater validation or external assessment has been completed."
@@ -113,6 +113,16 @@
       "detail": "No VBA project or external workbook links"
     },
     {
+      "check": "AERA_1.2_WD_Requirement_Register.xlsx controlled metadata",
+      "status": "PASS",
+      "detail": "creator=Angelis Pseftis; lastModifiedBy=Angelis Pseftis; identifier=AERA-001-1.2WD-20260807.1; status=Working Draft; Public Access Snapshot"
+    },
+    {
+      "check": "AERA_1.2_WD_Requirement_Register.xlsx recalculation policy",
+      "status": "PASS",
+      "detail": "calcPr={'calcId': '191029', 'calcMode': 'auto', 'fullCalcOnLoad': '1', 'forceFullCalc': '1'}"
+    },
+    {
       "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx sheet set",
       "status": "PASS",
       "detail": "2 sheets: ['Threats', 'Control']"
@@ -126,6 +136,16 @@
       "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx package safety",
       "status": "PASS",
       "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx controlled metadata",
+      "status": "PASS",
+      "detail": "creator=Angelis Pseftis; lastModifiedBy=Angelis Pseftis; identifier=AERA-001-1.2WD-20260807.1; status=Working Draft; Public Access Snapshot"
+    },
+    {
+      "check": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx recalculation policy",
+      "status": "PASS",
+      "detail": "calcPr={'calcId': '191029', 'calcMode': 'auto', 'fullCalcOnLoad': '1', 'forceFullCalc': '1'}"
     },
     {
       "check": "AERA_1.2_WD_Source_Register.xlsx sheet set",
@@ -143,6 +163,16 @@
       "detail": "No VBA project or external workbook links"
     },
     {
+      "check": "AERA_1.2_WD_Source_Register.xlsx controlled metadata",
+      "status": "PASS",
+      "detail": "creator=Angelis Pseftis; lastModifiedBy=Angelis Pseftis; identifier=AERA-001-1.2WD-20260807.1; status=Working Draft; Public Access Snapshot"
+    },
+    {
+      "check": "AERA_1.2_WD_Source_Register.xlsx recalculation policy",
+      "status": "PASS",
+      "detail": "calcPr={'calcId': '191029', 'calcMode': 'auto', 'fullCalcOnLoad': '1', 'forceFullCalc': '1'}"
+    },
+    {
       "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx sheet set",
       "status": "PASS",
       "detail": "6 sheets: ['Review Log', 'Summary', 'Controlled Vocabulary', 'Requirements Snapshot', 'Threat Snapshot', 'Source Snapshot']"
@@ -158,6 +188,16 @@
       "detail": "No VBA project or external workbook links"
     },
     {
+      "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx controlled metadata",
+      "status": "PASS",
+      "detail": "creator=Angelis Pseftis; lastModifiedBy=Angelis Pseftis; identifier=AERA-001-1.2WD-20260807.1; status=Working Draft; Public Access Snapshot"
+    },
+    {
+      "check": "AERA_1.2_WD_Review_Comment_Matrix.xlsx recalculation policy",
+      "status": "PASS",
+      "detail": "calcPr={'calcId': '191029', 'calcMode': 'auto', 'fullCalcOnLoad': '1', 'forceFullCalc': '1'}"
+    },
+    {
       "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx sheet set",
       "status": "PASS",
       "detail": "7 sheets: ['Read Me', 'Coverage Ledger', 'AI RMF 1.0 Candidates', 'CSF 2.0 Candidates', 'SP800-53 Candidates', 'AI RMF Design Attributes', 'Submission Checklist']"
@@ -171,6 +211,21 @@
       "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx package safety",
       "status": "PASS",
       "detail": "No VBA project or external workbook links"
+    },
+    {
+      "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx controlled metadata",
+      "status": "PASS",
+      "detail": "creator=Angelis Pseftis; lastModifiedBy=Angelis Pseftis; identifier=AERA-001-1.2WD-20260807.1; status=Working Draft; Public Access Snapshot"
+    },
+    {
+      "check": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx recalculation policy",
+      "status": "PASS",
+      "detail": "calcPr={'calcId': '191029', 'calcMode': 'auto', 'fullCalcOnLoad': '1', 'forceFullCalc': '1'}"
+    },
+    {
+      "check": "Threat workbook gap-control metric",
+      "status": "PASS",
+      "detail": "Control!E6 cached value=6; expected six threat rows with AERA-THR controls"
     }
   ],
   "workbooks": {
@@ -181,7 +236,20 @@
         "Control"
       ],
       "formula_errors": [],
-      "forbidden_parts": []
+      "forbidden_parts": [],
+      "core_properties": {
+        "title": "AERA 1.2 WD Requirement Register",
+        "creator": "Angelis Pseftis",
+        "identifier": "AERA-001-1.2WD-20260807.1",
+        "lastModifiedBy": "Angelis Pseftis",
+        "contentStatus": "Working Draft; Public Access Snapshot"
+      },
+      "calc_policy": {
+        "calcId": "191029",
+        "calcMode": "auto",
+        "fullCalcOnLoad": "1",
+        "forceFullCalc": "1"
+      }
     },
     "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx": {
       "sheets": [
@@ -189,7 +257,20 @@
         "Control"
       ],
       "formula_errors": [],
-      "forbidden_parts": []
+      "forbidden_parts": [],
+      "core_properties": {
+        "title": "AERA 1.2 WD Threat-Control-Test Matrix",
+        "creator": "Angelis Pseftis",
+        "identifier": "AERA-001-1.2WD-20260807.1",
+        "lastModifiedBy": "Angelis Pseftis",
+        "contentStatus": "Working Draft; Public Access Snapshot"
+      },
+      "calc_policy": {
+        "calcId": "191029",
+        "calcMode": "auto",
+        "fullCalcOnLoad": "1",
+        "forceFullCalc": "1"
+      }
     },
     "AERA_1.2_WD_Source_Register.xlsx": {
       "sheets": [
@@ -197,7 +278,20 @@
         "Control"
       ],
       "formula_errors": [],
-      "forbidden_parts": []
+      "forbidden_parts": [],
+      "core_properties": {
+        "title": "AERA 1.2 WD Source Register",
+        "creator": "Angelis Pseftis",
+        "identifier": "AERA-001-1.2WD-20260807.1",
+        "lastModifiedBy": "Angelis Pseftis",
+        "contentStatus": "Working Draft; Public Access Snapshot"
+      },
+      "calc_policy": {
+        "calcId": "191029",
+        "calcMode": "auto",
+        "fullCalcOnLoad": "1",
+        "forceFullCalc": "1"
+      }
     },
     "AERA_1.2_WD_Review_Comment_Matrix.xlsx": {
       "sheets": [
@@ -209,7 +303,20 @@
         "Source Snapshot"
       ],
       "formula_errors": [],
-      "forbidden_parts": []
+      "forbidden_parts": [],
+      "core_properties": {
+        "title": "AERA 1.2 WD Review Comment Matrix",
+        "creator": "Angelis Pseftis",
+        "identifier": "AERA-001-1.2WD-20260807.1",
+        "lastModifiedBy": "Angelis Pseftis",
+        "contentStatus": "Working Draft; Public Access Snapshot"
+      },
+      "calc_policy": {
+        "calcId": "191029",
+        "calcMode": "auto",
+        "fullCalcOnLoad": "1",
+        "forceFullCalc": "1"
+      }
     },
     "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx": {
       "sheets": [
@@ -222,7 +329,20 @@
         "Submission Checklist"
       ],
       "formula_errors": [],
-      "forbidden_parts": []
+      "forbidden_parts": [],
+      "core_properties": {
+        "title": "AERA 1.2 WD NIST Mapping Development Ledger",
+        "creator": "Angelis Pseftis",
+        "identifier": "AERA-001-1.2WD-20260807.1",
+        "lastModifiedBy": "Angelis Pseftis",
+        "contentStatus": "Working Draft; Public Access Snapshot"
+      },
+      "calc_policy": {
+        "calcId": "191029",
+        "calcMode": "auto",
+        "fullCalcOnLoad": "1",
+        "forceFullCalc": "1"
+      }
     }
   }
 }

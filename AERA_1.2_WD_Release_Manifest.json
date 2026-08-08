@@ -2,7 +2,23 @@
   "schema": "AERA release manifest 1.0",
   "build_id": "AERA-001-1.2WD-20260807.1",
   "build_date": "2026-08-07",
-  "release_state": "Developmental-review candidate; public review not open",
+  "release_state": "Public working-draft snapshot; formal public review not open; no immutable release tag issued",
+  "repository_publication": {
+    "url": "https://github.com/redxking/AERA",
+    "publication_date": "2026-08-08",
+    "visibility": "public",
+    "rights_status": "All rights reserved; no open license granted",
+    "contribution_status": "closed",
+    "formal_public_review_status": "not open",
+    "policy_authority": [
+      "LICENSE.md",
+      "CONTRIBUTING.md",
+      "PUBLIC_REVIEW.md",
+      "PRIVACY.md",
+      "GOVERNANCE.md"
+    ],
+    "integrity_scope": "The manifest covers every tracked file except the manifest and checksum file; the checksum file additionally covers the manifest and is not self-hashed."
+  },
   "authority": {
     "authoritative_release_representation": "AERA_1.2_WD_Autonomous_Enterprise_Reference_Architecture.pdf",
     "canonical_human_readable_requirement_text": "Appendix A of the authoritative PDF",
@@ -17,7 +33,7 @@
     "pdf_pages_total": 89
   },
   "validation": {
-    "automated_package_checks": 31,
+    "automated_package_checks": 42,
     "docx_accessibility_findings": {
       "high": 0,
       "medium": 0,
@@ -68,8 +84,8 @@
     ]
   },
   "release_gates": [
-    "Public license, contribution terms, derivative-work terms, and intellectual-property process are not established.",
-    "Stable package URL, comment channel, comment period, identity-publication/privacy terms, and moderation process are not established.",
+    "No open license has been granted; formal contribution, derivative-work, patent, and intellectual-property processes remain unset.",
+    "The public repository URL is established; a formal review channel, comment period, identity-publication/privacy terms, and moderation process remain unset.",
     "Applicability and satisfaction assessments are unpopulated; verification procedures and pilot evidence remain incomplete.",
     "NIST mappings lack complete atomic focal identifiers, exact text, rationale, and independent SME adjudication; OLIR is not submission-ready.",
     "Independent I2/I3 review, multi-organization pilots, inter-rater validation, and consensus governance are not complete.",
@@ -136,36 +152,36 @@
       "filename": "AERA_1.2_WD_Requirement_Register.xlsx",
       "role": "controlled requirements workbook",
       "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "bytes": 71049,
-      "sha256": "aad3bb701a54ee00389376382af3cfa59128ec4173c1582c544e6024ea5d8727"
+      "bytes": 73122,
+      "sha256": "86123993441b2e640a5f2c42860f56fc49f9906ca7e826d59d27f7d1e7cdb0d9"
     },
     {
       "filename": "AERA_1.2_WD_Threat_Control_Test_Matrix.xlsx",
       "role": "controlled threat-traceability workbook",
       "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "bytes": 15991,
-      "sha256": "1059e303146511597c2c0f5c4fc88e81959557fd4774c38c79100ef10edc1bd3"
+      "bytes": 17179,
+      "sha256": "841ad9737d45fced7fb623a5115078a4c9bb25d766d2cc0292b6c0725d290d07"
     },
     {
       "filename": "AERA_1.2_WD_Source_Register.xlsx",
       "role": "controlled source workbook",
       "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "bytes": 15794,
-      "sha256": "6132b8f68ef2bf7ec12c0353dcfec4235414c9bd2f2868e053ce939455657fbb"
+      "bytes": 17028,
+      "sha256": "74789dab432db3e1ce926c5f964f5913e8e03653e3d2d9de02982c411afacd6b"
     },
     {
       "filename": "AERA_1.2_WD_Review_Comment_Matrix.xlsx",
       "role": "developmental-review intake workbook",
       "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "bytes": 66156,
-      "sha256": "fb41d97f463225ed1c23d2cff3e4bd40a9957cd1e1289e9560c4a933dc215846"
+      "bytes": 68002,
+      "sha256": "4d061992cdc0846d78091fba5b6aef8d7e08f6f122bb5cef41afe241dfe6748a"
     },
     {
       "filename": "AERA_1.2_WD_NIST_Mapping_Development_Ledger.xlsx",
       "role": "developmental NIST mapping ledger; not submission-ready",
       "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "bytes": 89495,
-      "sha256": "f75cfc63f2f56430be75c203a961403f858332117f5aaa73eac78b893ddfbdfa"
+      "bytes": 91813,
+      "sha256": "12bd0d70b3932f0fe687a5a4d5ca722096c200b1105e495c45c2d598a2829299"
     },
     {
       "filename": "AERA_1.2_WD_Requirement_Register.csv",
@@ -192,15 +208,92 @@
       "filename": "AERA_1.2_WD_QA_Validation.json",
       "role": "automated package validation record",
       "media_type": "application/json",
-      "bytes": 7123,
-      "sha256": "31cd6940fa99a00580cd6fcc58c2d37cc4e3d7ee65fb9395f1f4cf0005261ac0"
+      "bytes": 12087,
+      "sha256": "3e486c93262d50b2dfdd91c306db93cea26b2aad3d10eb4b547808acbe9c308a"
     },
     {
       "filename": "AERA_1.2_WD_PDF_Metadata_Validation.txt",
       "role": "PDF metadata and accessibility-control record",
       "media_type": "text/plain",
-      "bytes": 1930,
-      "sha256": "5ebd27c9c4693735438ad7483cd7438b629603bd382aafa3be72579184629390"
+      "bytes": 2207,
+      "sha256": "ffcf4229ec6d45eb3ec87944d502a66828af1378180b45dc516f009a48120bb1"
+    },
+    {
+      "filename": ".gitattributes",
+      "role": "source-control byte-preservation policy",
+      "media_type": "text/plain",
+      "bytes": 188,
+      "sha256": "bf51457c32b87be4e69accddffddd474b15c7f4f13544b5a49afd5c555be606d"
+    },
+    {
+      "filename": ".gitignore",
+      "role": "publication-boundary and exclusion policy",
+      "media_type": "text/plain",
+      "bytes": 48,
+      "sha256": "83c488cee1949ec82565fb3859355f4d5579fc701884ebb13dd0fc8c31e7efd3"
+    },
+    {
+      "filename": "README.md",
+      "role": "repository scope, status and artifact index",
+      "media_type": "text/markdown",
+      "bytes": 5105,
+      "sha256": "2f8f29d8007f1329653288b27d25d84d0a40c624fe16acdc9c140247db72cc27"
+    },
+    {
+      "filename": "LICENSE.md",
+      "role": "current rights and no-open-license notice",
+      "media_type": "text/markdown",
+      "bytes": 954,
+      "sha256": "3cdd77cac5b9e3d55f4fc474566f9c097e51ff5a38919426b9a42951a45285ee"
+    },
+    {
+      "filename": "CONTRIBUTING.md",
+      "role": "closed-contribution and future-review boundary",
+      "media_type": "text/markdown",
+      "bytes": 900,
+      "sha256": "69cda9e14dc4bd0cd51e6eaa3a2777ea06d5e994fc23b4276aa9821c1714c121"
+    },
+    {
+      "filename": "PUBLIC_REVIEW.md",
+      "role": "formal public-review status and gate notice",
+      "media_type": "text/markdown",
+      "bytes": 999,
+      "sha256": "c947e80b5e5898da294602a92ea4bf25fb8acbfbbb80324a647f9e26ffb67477"
+    },
+    {
+      "filename": "SECURITY.md",
+      "role": "security reporting policy",
+      "media_type": "text/markdown",
+      "bytes": 980,
+      "sha256": "e9131648bfa362654de4e2f895214bf0330057f9f0bff2c5cb58693e1bf5a391"
+    },
+    {
+      "filename": "PRIVACY.md",
+      "role": "reviewer privacy and publication boundary",
+      "media_type": "text/markdown",
+      "bytes": 854,
+      "sha256": "ba6c458da22fe1c961b083c6111b08329af32c9acbf5a49718d238be641304d9"
+    },
+    {
+      "filename": "GOVERNANCE.md",
+      "role": "repository governance and authority boundary",
+      "media_type": "text/markdown",
+      "bytes": 1617,
+      "sha256": "1f68da094d1d74c43270c6d3096e69dc03ce54082ac64d84eec7dcdb51f5f6c5"
+    },
+    {
+      "filename": "THIRD_PARTY_NOTICES.md",
+      "role": "third-party standards and marks notice",
+      "media_type": "text/markdown",
+      "bytes": 1003,
+      "sha256": "fb9821b4b440c9423ee2256e4336da277b5a3a2298ae15ea70336bd6cf7b32fd"
+    },
+    {
+      "filename": "CITATION.cff",
+      "role": "citation metadata",
+      "media_type": "text/yaml",
+      "bytes": 584,
+      "sha256": "d953ba652d0b2ae4b1be86b3a751f6bd5d1fc3d7877d9e7c84b235b2c622d6f7"
     }
   ]
 }

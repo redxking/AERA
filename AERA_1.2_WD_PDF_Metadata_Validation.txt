@@ -17,5 +17,6 @@ DOCX automated accessibility records:
 - AERA_1.2_WD_Public_Review_Release_Notes.docx: high=0; medium=0; low=0
 
 Visual QA: all 89 pages across the four PDFs were rendered and inspected; no clipping, overlap, blank pages, broken tables, or missing glyphs were observed.
-Release boundary: public review is not open; stable package URL, submission channel, dates, privacy terms, and license remain unset.
+Repository publication: https://github.com/redxking/AERA; public working-draft snapshot published 2026-08-08; no GitHub Release or immutable release tag issued.
+Release boundary: formal public review is not open; no open license is granted; formal contribution, review-channel, review-period, privacy/identity-publication, moderation, derivative-work, patent, and intellectual-property processes remain unset.
 NIST boundary: these checks do not establish NIST support, approval, endorsement, adoption, certification, or OLIR readiness.

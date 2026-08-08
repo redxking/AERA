@@ -2,19 +2,22 @@
 
 AERA is an independently authored, governance-first reference architecture for autonomous decision systems. It treats delegated decision authority and the decision transaction—not a model, agent, API call, or resource-access event—as the primary units of assurance.
 
-This repository contains the controlled AERA 1.2 Working Draft artifact package.
+This repository contains the controlled AERA 1.2 Working Draft public-access snapshot.
 
 ## Status and boundaries
 
 - **Edition:** AERA 1.2 Working Draft
 - **Build:** `AERA-001-1.2WD-20260807.1`
-- **Release state:** Developmental-review candidate; formal public review is not open
+- **Repository publication:** Public snapshot published August 8, 2026
+- **Release state:** Working branch snapshot; formal public review is not open; no GitHub Release or immutable release tag has been issued
 - **Author:** Angelis Pseftis
 - **Normative status:** All 199 requirements remain `PROPOSED`
 - **Assessment status:** Author-performed I1 publication-integrity review only; no independent I2/I3 validation, consensus determination, certification, or conformance grant
 - **NIST boundary:** AERA is not a NIST publication or submission. No NIST support, approval, endorsement, adoption, certification, or correctness claim is made. The mapping ledger is developmental and is not OLIR submission-ready.
 
-Public repository visibility provides public access to this working-draft snapshot. It does not open a formal review period or establish contribution, redistribution, derivative-work, patent, trademark, or implementation rights. See [LICENSE.md](LICENSE.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [PUBLIC_REVIEW.md](PUBLIC_REVIEW.md).
+Public repository visibility provides public access to this working-draft snapshot. It does not open a formal review period or establish contribution, redistribution, derivative-work, patent, trademark, or implementation rights. [LICENSE.md](LICENSE.md) records the current all-rights-reserved, no-open-license posture; it does not close the affirmative license, contribution, derivative-work, patent, intellectual-property, privacy, moderation, or adjudication gates required before a formal public review or standards submission. See [CONTRIBUTING.md](CONTRIBUTING.md) and [PUBLIC_REVIEW.md](PUBLIC_REVIEW.md).
+
+The controlled documents record the build-time gate state of August 7, 2026. This repository's policy files and release manifest record the current publication state as of August 8, 2026. Source-register access dates remain the dates on which those sources were checked and must be refreshed before any later formal review or submission.
 
 ## Controlled package
 
@@ -46,7 +49,7 @@ The editable DOCX and machine-readable derivatives do not establish alternate no
 - [QA validation record](AERA_1.2_WD_QA_Validation.json)
 - [PDF metadata and accessibility-control record](AERA_1.2_WD_PDF_Metadata_Validation.txt)
 
-The package records 31 automated checks, 199 requirements, 25 threats, 69 controlled sources, and visual inspection of 89 rendered PDF pages. Its result is **PASS WITH RELEASE GATES**, not an unconditional release, conformance, accessibility-certification, or external-validation claim.
+The package records 42 automated checks, 199 requirements, 25 threats, 69 controlled sources, and visual inspection of 89 rendered PDF pages. Its result is **PASS WITH RELEASE GATES**, not an unconditional release, conformance, accessibility-certification, or external-validation claim.
 
 ## Verify integrity
 
@@ -62,7 +65,7 @@ On systems with GNU coreutils:
 sha256sum -c AERA_1.2_WD_SHA256SUMS.txt
 ```
 
-All 19 listed entries must report `OK`. The checksum file itself is not self-hashed.
+All 30 listed entries must report `OK`. Every tracked repository file except the checksum file is covered; the checksum file is not self-hashed.
 
 ## Repository scope
 
